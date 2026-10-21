@@ -1,0 +1,100 @@
+
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Clientza Help Center",
+  "description": "Step-by-step help for getting started with Clientza, managing business settings, services, providers, customers, appointments, and payments.",
+  "colors": {
+    "primary": "#A65370",
+    "light": "#F8E9EE",
+    "dark": "#8F3D5A"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Welcome",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Get Started",
+        "pages": [
+          "getting-started/create-owner-account",
+          "getting-started/verify-email",
+          "getting-started/sign-in",
+          "getting-started/reset-password",
+          "getting-started/initial-business-setup"
+        ]
+      },
+      {
+        "group": "Business Settings",
+        "pages": [
+          "business-settings/update-business-profile",
+          "business-settings/configure-business-hours",
+          "business-settings/manage-date-overrides"
+        ]
+      },
+      {
+        "group": "Services and Providers",
+        "pages": [
+          "services/create-service-category",
+          "services/create-service",
+          "services/assign-providers",
+          "providers/add-provider"
+        ]
+      },
+      {
+        "group": "Customers",
+        "pages": [
+          "customers/add-customer",
+          "customers/view-customer-history"
+        ]
+      },
+      {
+        "group": "Appointments",
+        "pages": [
+          "appointments/create-appointment",
+          "appointments/understand-appointment-statuses",
+          "appointments/cancel-appointment",
+          "appointments/reschedule-appointment",
+          "appointments/troubleshoot-unavailable-times"
+        ]
+      },
+      {
+        "group": "Payments",
+        "pages": [
+          "payments/configure-payment-methods",
+          "payments/review-payment",
+          "payments/mark-payment-paid"
+        ]
+      },
+      {
+        "group": "Communications",
+        "pages": [
+          "communications/create-communication-draft",
+          "communications/cancel-communication-draft"
+        ]
+      },
+      {
+        "group": "Profile and Account",
+        "pages": [
+          "account/update-profile",
+          "account/account-access-and-recovery"
+        ]
+      },
+      {
+        "group": "FAQs and Troubleshooting",
+        "pages": [
+          "faq",
+          "troubleshooting/sign-in-problems",
+          "troubleshooting/appointment-problems",
+          "troubleshooting/settings-not-saving"
+        ]
+      }
+    ]
+  }
+}
