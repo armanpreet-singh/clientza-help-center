@@ -139,21 +139,11 @@
           {
             "label": "Home",
             "href": "/"
-          }
-        ]
-      },
-      {
-        "header": "Help Center",
-        "items": [
+          },
           {
             "label": "Sign-in Help",
             "href": "/getting-started/sign-in"
-          }
-        ]
-      },
-      {
-        "header": "Help Center",
-        "items": [
+          },
           {
             "label": "Reset Password",
             "href": "/getting-started/reset-password"
@@ -166,6 +156,14 @@
           {
             "label": "Update Business Profile",
             "href": "/business-settings/update-business-profile"
+          },
+          {
+            "label": "Business Hours",
+            "href": "/business-settings/configure-business-hours"
+          },
+          {
+            "label": "\tDate-Specific Overrides",
+            "href": "/business-settings/manage-date-overrides"
           }
         ]
       }
