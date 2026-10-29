@@ -1,6 +1,6 @@
-/* Clientza Help Center — navbar logo sizing */
+/* Clientza Help Center — navbar and footer logo sizing */
 
-/* Give the horizontal Clientza wordmark more visual prominence on desktop. */
+/* Give the horizontal Clientza wordmark clear visual presence in the navbar. */
 #navbar img {
   height: 46px !important;
   max-height: 46px !important;
@@ -9,11 +9,28 @@
   object-fit: contain;
 }
 
-/* Scale it down slightly on mobile so the navbar remains uncluttered. */
+/* Make the footer wordmark easier to see without competing with the content. */
+#footer img,
+footer img {
+  height: 32px !important;
+  max-height: 32px !important;
+  width: auto !important;
+  max-width: 190px !important;
+  object-fit: contain;
+}
+
+/* Keep both logo placements balanced on small screens. */
 @media (max-width: 640px) {
   #navbar img {
     height: 34px !important;
     max-height: 34px !important;
     max-width: 175px !important;
+  }
+
+  #footer img,
+  footer img {
+    height: 26px !important;
+    max-height: 26px !important;
+    max-width: 160px !important;
   }
 }
