@@ -1,0 +1,19 @@
+/* Clientza Help Center — navbar logo sizing */
+
+/* Make the horizontal Clientza wordmark more visible in the header. */
+#navbar img {
+  height: 34px !important;
+  max-height: 34px !important;
+  width: auto !important;
+  max-width: 180px !important;
+  object-fit: contain;
+}
+
+/* Keep the navbar balanced on small screens. */
+@media (max-width: 640px) {
+  #navbar img {
+    height: 28px !important;
+    max-height: 28px !important;
+    max-width: 145px !important;
+  }
+}
