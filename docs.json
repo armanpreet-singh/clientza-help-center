@@ -130,5 +130,45 @@
       "label": "Get started",
       "href": "/getting-started/initial-business-setup"
     }
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "Help Center",
+        "items": [
+          {
+            "label": "Home",
+            "href": "/"
+          }
+        ]
+      },
+      {
+        "header": "Help Center",
+        "items": [
+          {
+            "label": "Sign-in Help",
+            "href": "/getting-started/sign-in"
+          }
+        ]
+      },
+      {
+        "header": "Help Center",
+        "items": [
+          {
+            "label": "Reset Password",
+            "href": "/getting-started/reset-password"
+          }
+        ]
+      },
+      {
+        "header": "Business Settings",
+        "items": [
+          {
+            "label": "Update Business Profile",
+            "href": "/business-settings/update-business-profile"
+          }
+        ]
+      }
+    ]
   }
 }
