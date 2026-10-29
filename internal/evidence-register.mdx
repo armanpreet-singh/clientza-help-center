@@ -1,0 +1,96 @@
+---
+title: "Documentation Evidence Register"
+description: "Internal evidence mapping for customer documentation pages."
+hidden: true
+noindex: true
+searchable: false
+---
+
+Last review date: 2026-10-29
+
+## Access constraints
+
+- Frontend repository access from this workspace: unavailable (HTTP 404)
+- Backend repository access from this workspace: unavailable (HTTP 404)
+- Platform admin repository access from this workspace: unavailable (HTTP 404)
+- Help Center repository access: available
+
+Because source repositories were inaccessible, this register records the observable evidence available here and marks all external-code assertions as unverified pending source access.
+
+## Article evidence map
+
+- Article path: /index
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: starter cards removed; links target existing help articles
+  - Unresolved assumptions: feature implementation remains pending code verification
+
+- Article path: /getting-started/create-owner-account
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: onboarding documented as invitation-based; consultation submission marked as unconnected blocker per implementation finding provided by product review context
+  - Unresolved assumptions: timing and operational handoff details
+
+- Article path: /getting-started/accept-owner-invitation
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: invitation acceptance includes new-account and existing-account paths; no manual verification-code instruction
+  - Unresolved assumptions: precise UI labels in current build
+
+- Article path: /getting-started/initial-business-setup
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: setup follows invitation acceptance and sign-in
+  - Unresolved assumptions: exact required fields and slug behavior in latest code
+
+- Article path: /getting-started/sign-in
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: sign-in and recovery guidance only
+  - Unresolved assumptions: full auth-edge-state handling
+
+- Article path: /getting-started/reset-password
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: recovery guidance present without implementation internals
+  - Unresolved assumptions: exact route labels and token expiry wording
+
+- Article path: /business-settings/update-business-profile
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: profile update how-to retained and cautious
+  - Unresolved assumptions: save semantics and field-level constraints
+
+- Article path: /business-settings/configure-business-hours
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: settings-based schedule guidance retained; availability preview caution retained
+  - Unresolved assumptions: current /availability behavior in latest code
+
+- Article path: /business-settings/manage-date-overrides
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: date-specific override guidance retained in settings context
+  - Unresolved assumptions: full CRUD support details
+
+- Article path: /services/*, /providers/*, /customers/*, /appointments/*, /payments/*, /communications/*, /account/*, /faq, /troubleshooting/*
+  - Frontend inspected: none (inaccessible)
+  - Backend inspected: none (inaccessible)
+  - Tests consulted: none
+  - Verified rules: owner-friendly task guidance written without API/internal claims; unsupported/uncertain operations described conditionally
+  - Unresolved assumptions: exact action availability and status model in latest production branch
+
+## Required follow-up before public launch
+
+- Re-run this register after read-only inspection access is restored for frontend, backend, and platform-admin repositories.
+- Validate each guide against current UI labels and behavior.
+- Run and record test evidence where available.

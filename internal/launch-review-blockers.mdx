@@ -1,0 +1,40 @@
+---
+title: "Launch Review Blockers and Open Questions"
+description: "Internal pre-launch checklist for unresolved product and documentation risks."
+hidden: true
+noindex: true
+searchable: false
+---
+
+Last updated: 2026-10-29
+
+## High-priority blockers
+
+1. Consultation form submission is not connected
+   - Impact: Prospective-owner onboarding cannot be documented as complete self-service.
+   - Required action: Implement and verify end-to-end consultation submission, acknowledgement, and review workflow.
+   - Public docs status: Keep consultation request page out of public navigation.
+
+2. Source-of-truth repositories inaccessible from this docs workspace
+   - Impact: Feature verification against current frontend/backend/admin code is incomplete.
+   - Required action: Provide read-only access or validated snapshots before final publication approval.
+
+## Potentially incomplete or preview-sensitive workflows
+
+- Availability page behavior versus settings-based persisted schedules must be re-verified.
+- Insights and dashboard metrics must be confirmed as live versus preview content.
+- Communications send/delivery workflow must be confirmed before documenting sending.
+- Security/session/device-management actions must be confirmed before actionable docs.
+- Profile preference application scope must be confirmed.
+- Customer edit/delete availability must be confirmed before explicit how-to guidance.
+
+## Business-rule confirmations needed
+
+- Invitation expiry and re-invite policy wording.
+- Supported account-recovery support channel and escalation language.
+- Payment policy language boundaries for pending versus paid records.
+- Any customer-facing legal or compliance notices required in help content.
+
+## Publication gate
+
+Do not approve final public launch until all blocker items are resolved or accepted by product/documentation owner with explicit risk sign-off.
