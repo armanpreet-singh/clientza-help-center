@@ -6,7 +6,7 @@
   "description": "Step-by-step help for getting started with Clientza, managing business settings, services, providers, customers, appointments, and payments.",
   "colors": {
     "primary": "#A65370",
-    "light": "#F8E9EE",
+    "light": "#E5A7BD",
     "dark": "#8F3D5A"
   },
   "icons": {
@@ -107,5 +107,11 @@
     "light": "/images/clientza-light.webp",
     "dark": "/images/clientza-dark.webp",
     "href": "https://clientza.arman-dev.in/"
+  },
+  "background": {
+    "color": {
+      "light": "#F7F3EF",
+      "dark": "#181318"
+    }
   }
 }
