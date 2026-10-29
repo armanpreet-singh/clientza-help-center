@@ -102,5 +102,10 @@
         ]
       }
     ]
+  },
+  "logo": {
+    "light": "/images/clientza-light.webp",
+    "dark": "/images/clientza-dark.webp",
+    "href": "https://clientza.arman-dev.in/"
   }
 }
