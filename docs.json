@@ -168,5 +168,10 @@
         ]
       }
     ]
+  },
+  "fonts": {
+    "body": {
+      "family": "Geist"
+    }
   }
 }
