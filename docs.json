@@ -113,5 +113,22 @@
       "light": "#F7F3EF",
       "dark": "#181318"
     }
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/getting-started/sign-in",
+        "label": "Sign-in Help"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get started",
+      "href": "/getting-started/initial-business-setup"
+    }
   }
 }
