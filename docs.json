@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
@@ -175,7 +174,7 @@
     }
   },
   "favicon": {
-    "light": "/images/clientza-light.webp",
-    "dark": "/images/clientza-dark.webp"
+    "light": "/images/clientza-favicon.png",
+    "dark": "/images/clientza-favicon.png"
   }
 }
