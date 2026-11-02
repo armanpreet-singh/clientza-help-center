@@ -174,7 +174,7 @@
     }
   },
   "favicon": {
-    "light": "/images/clientza-favicon.png",
-    "dark": "/images/clientza-favicon.png"
+    "light": "/images/clientza-c-icon-favicon.png",
+    "dark": "/images/clientza-c-icon-favicon.png"
   }
 }
